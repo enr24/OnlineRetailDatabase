@@ -1,0 +1,11 @@
+Schema
+    rowNum Integer,
+    InvoiceNo Integer,
+    StockCode Text,
+    Description Text,
+    Quantity Integer,
+    InvoiceDate DATE,
+    UnitPrice Decimal (10,5),
+    CustomerID Integer,
+    Country Text,
+    SaleAmount Decimal (10,5);
